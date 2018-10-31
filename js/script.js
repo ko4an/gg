@@ -13,7 +13,9 @@ $(document).ready(function(){
     			$(".ttimer").html(t)
     		}
     		else {
-    		    $(".ttimer").html("STOP")	
+    			$(".ttimer").css({"font-size":"140%"})
+    			$(".ttimer").css({"margin":"10px"})
+    		    $(".ttimer").html("Time Out")	
     		}
     	},1000);
     	
@@ -24,8 +26,12 @@ $(document).ready(function(){
     	   i=i+1;
     	setTimeout(function() {
     		$(".ttime").html(i)
+    		setTimeout(function() {
+    			i=0;
+    		},10000)
             },60000);
     	$(".ball").css({"top":top});
     	$(".ball").css({"left":left})
+    	return;
     });
     });
