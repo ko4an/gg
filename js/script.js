@@ -21,8 +21,8 @@ $(document).ready(function(){
     	
     	});
     	$(".ball").click(function(){
-    	var top=Math.random()*(597-150)+150;
-    	var left=Math.random()*(1174-728)+728;
+    	var top=Math.random()*(446-0)+0;
+    	var left=Math.random()*(446-0)+0;
     	   i=i+1;
     	setTimeout(function() {
     		$(".ttime").html(i)
