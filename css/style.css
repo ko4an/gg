@@ -74,6 +74,7 @@
 	border:  5px black solid;
 	border-radius: 15px;
 	cursor: pointer;
+	z-index: 6;
 }
 .tstart {
 	margin:20px;
@@ -91,6 +92,7 @@
 	border:  5px black solid;
 	border-radius: 15px;
 	cursor: default;
+	display: none;
 }
 .ttime {
 	margin:20px;
@@ -108,6 +110,7 @@
 	border:  5px black solid;
 	border-radius: 15px;
 	cursor: default;
+	display: none;
 }
 .ttimer {
 	margin:20px;
@@ -120,7 +123,7 @@
 		left: 250px;
 	}
 	.start {
-		left: 10px;
+		left: 190px;
 	}
 	.time {
 		left: 130px;

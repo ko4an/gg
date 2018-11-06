@@ -3,13 +3,19 @@ $(document).ready(function(){
 	var i=0;
 	$(".start").click(function(){
 			$(".ball1").css({"display":"block"})
+			$(".time").css({"display":"block"})
+			$(".timer").css({"display":"block"})
+			$(".start").css({"display":"none"})
 			setInterval(function() {
+				$(".start").css({"display":"block"})
+				$(".start").css({"right":"840px"})
+				$(".start").css({"top":"350px"})
 				$(".tstart").css({"margin":"5px"})
 				$(".tstart").html("Restart")
            		$(".start").click(function(){
             	location.reload();
             	})
-           	},60000);  
+           	},62000);  
 	});
     $(".ball1").click(function(){
     	$(".ball1").css({"display":"none"})
@@ -32,9 +38,7 @@ $(document).ready(function(){
     	    i=i+1;
     	setTimeout(function() {
     		$(".ttime").html(i)
-    		setTimeout(function() {
-    			$(".res").css({"display":"block"})
-    		},1000)
+    		$(".res").css({"display":"block"})
             },60000);
     	$(".ball").css({"top":top});
     	$(".ball").css({"left":left})
