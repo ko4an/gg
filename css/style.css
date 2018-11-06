@@ -4,6 +4,19 @@
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
 @import url('https://fonts.googleapis.com/css?family=Anton');
 
+.res {
+	background-color: #2a2a2a95;
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	top: 15%;
+	right: 627px;
+	border:  5px black solid;
+	border-radius: 15px;
+	z-index: 5;
+	display:none;
+	cursor: default;
+}
 .ball {
 	background-color: #555555;
 	position: absolute;
@@ -15,6 +28,7 @@
 	border:  2px black solid;
 	z-index: 2;
 	display: none;
+	cursor:crosshair;
 }
 .ball1 {
 	background-color: #555555;
@@ -27,6 +41,7 @@
 	border:  2px black solid;
 	z-index: 3;
 	display: none;
+	cursor: pointer;
 }
 .polee {
 	position: absolute;
@@ -36,6 +51,7 @@
 	right: 627px;
 	border:  5px black solid;
 	border-radius: 15px;
+	cursor:crosshair;
 }
 .pole {
 	background-color: #2a2a2e;
@@ -46,6 +62,7 @@
 	right: 627px;
 	border:  5px black solid;
 	border-radius: 15px;
+	cursor:crosshair;
 }
 .start {
 	background-color: #2a2a2e;
@@ -56,11 +73,13 @@
 	right: 1020px;
 	border:  5px black solid;
 	border-radius: 15px;
+	cursor: pointer;
 }
 .tstart {
 	margin:20px;
 	font-size: 200%;
-	font-family:Anton;  
+	font-family:Anton;
+	cursor: pointer;
 }
 .time {
 	background-color: #2a2a2e;
@@ -71,11 +90,13 @@
 	right: 900px;
 	border:  5px black solid;
 	border-radius: 15px;
+	cursor: default;
 }
 .ttime {
 	margin:20px;
 	font-size: 200%;
-	font-family:Anton;  
+	font-family:Anton; 
+	cursor: default; 
 }
 .timer {
 	background-color: #2a2a2e;
@@ -86,11 +107,13 @@
 	right: 780px;
 	border:  5px black solid;
 	border-radius: 15px;
+	cursor: default;
 }
 .ttimer {
 	margin:20px;
 	font-size: 200%;
-	font-family:Anton;  
+	font-family:Anton; 
+	cursor: default; 
 }
 @media screen and (max-width: 1138px) {
 	.timer {
@@ -106,6 +129,9 @@
 	    left:0px;
     }
     .pole {
+    	left:0px;
+    }
+    .res {
     	left:0px;
     }
 }
