@@ -1,45 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Suez+One');
+﻿@import url('https://fonts.googleapis.com/css?family=Suez+One');
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
 @import url('https://fonts.googleapis.com/css?family=Anton');
-.game1 {
-	position: absolute;
-	border-radius: 25px;
-	border: 3px solid #1a1a1a;
-	width: 250px;
-	height: 250px;
-	background-color: #2a2a2a;
-	left: 100px;
-	top:200px;  	
-} 
-.game2 {
-	position: absolute;
-	border-radius: 25px;
-	border: 3px solid #1a1a1a;
-	width: 250px;
-	height: 250px;
-	background-color: #2a2a2a;
-	left: 450px;
-	top:200px;
-} 
-.top {
-	position: absolute;
-	top:0px;
-	width: 250px;
-	height: 35px;
-	border-radius:21px 21px 0px 0px;
-	background-color: #1a1a1a;
-	z-index: 5;
-}
-.igame {
-	width: 230px;
-	height: 200px;
-	margin-right: 10px;
-	margin-left: 10px;
-	margin-top:40px;
-	z-index: 4;
-}
+
 .res {
 	background-color: #2a2a2a95;
 	position: absolute;

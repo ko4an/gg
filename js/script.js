@@ -8,7 +8,6 @@ $(document).ready(function(){
 			$(".start").css({"display":"none"})
 			setInterval(function() {
 				$(".start").css({"display":"block"})
-				$(".start").css({"right":"840px"})
 				$(".start").css({"top":"350px"})
 				$(".tstart").css({"margin":"5px"})
 				$(".tstart").html("Restart")
