@@ -1,0 +1,83 @@
+﻿.resh {
+	position: absolute;
+	right: 600px;
+	width:224px;
+	height:224px;
+	top:400px;
+	border: 3px black solid;
+	background-color: #404040;
+}
+.kv1 {
+	position: absolute;
+	right:762px ;
+	top:403px;
+    width: 64px;
+    height: 64px;
+}
+.kv2{
+	position: absolute;
+	right:682px ;
+	top:403px;
+    width: 64px;
+    height: 64px;
+}
+.kv3{
+	position: absolute;
+	right:602px ;
+	top:403px;
+    width: 64px;
+    height: 64px;
+}
+.kv4 {
+	position: absolute;
+	right:762px ;
+	top:482px;
+    width: 64px;
+    height: 64px;
+}
+.kv5{
+	position: absolute;
+	right:682px ;
+	top:482px;
+    width: 64px;
+    height: 64px;
+}
+.kv6{
+	position: absolute;
+	right:602px ;
+	top:482px;
+    width: 64px;
+    height: 64px;
+}
+.kv7 {
+	position: absolute;
+	right:762px ;
+	top:563px;
+    width: 64px;
+    height: 64px;
+}
+.kv8{
+	position: absolute;
+	right:682px ;
+	top:563px;
+    width: 64px;
+    height: 64px;
+}
+.kv9{
+	position: absolute;
+	right:602px ;
+	top:563px;
+    width: 64px;
+    height: 64px;
+}
+.ik1, .ik2, .ik3, .ik4, .ik5, .ik6, .ik7, .ik8, .ik9 {
+	position: absolute;
+	display: none;
+}
+.in1, .in2, .in3, .in4, .in5, .in6, .in7, .in8, .in9{
+	position: absolute;
+	display: none;
+}
+.i1{
+	position: absolute;
+}
