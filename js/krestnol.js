@@ -1,4 +1,4 @@
-﻿var i=0;
+﻿var i=-1;
     a=0;
     b=0;
     c=0;
@@ -15,6 +15,7 @@ $(document).ready(function(){
 			$(".in1").removeClass("in1").addClass("i1");
 			i=i+1
 			a=a+1;
+			console.log(a)
 		}
 		else {
             $(".ik1").removeClass("ik1").addClass("i1");
@@ -29,6 +30,7 @@ $(document).ready(function(){
 			$(".in2").removeClass("in2").addClass("i1");
 			i=i+1
 			b=b+1;
+			console.log(b)
 		}
 		else {
             $(".ik2").removeClass("ik2").addClass("i1");
@@ -43,6 +45,7 @@ $(document).ready(function(){
 			$(".in3").removeClass("in3").addClass("i1");
 			i=i+1
 			c=c+1;
+			console.log(c)
 		}
 		else {
             $(".ik3").removeClass("ik3").addClass("i1");
@@ -57,6 +60,7 @@ $(document).ready(function(){
 			$(".in4").removeClass("in4").addClass("i1");
 			i=i+1
 			d=d+1;
+			console.log(d)
 		}
 		else {
             $(".ik4").removeClass("ik4").addClass("i1");
@@ -71,6 +75,7 @@ $(document).ready(function(){
 			$(".in5").removeClass("in5").addClass("i1");
 			i=i+1
 			e=e+1;
+			console.log(e)
 		}
 		else {
             $(".ik5").removeClass("ik5").addClass("i1");
@@ -85,13 +90,15 @@ $(document).ready(function(){
 			$(".in6").removeClass("in6").addClass("i1");
 			i=i+1
 			f=f+1;
+			console.log(f)
 		}
 		else {
             $(".ik6").removeClass("ik6").addClass("i1");
             i=i+1
             f=f+2;
+            console.log(f)
 		}
-		console.log(f)
+		
 	});
 	$(".kv7").click(function(){
 		
@@ -99,6 +106,7 @@ $(document).ready(function(){
 			$(".in7").removeClass("in7").addClass("i1");
 			i=i+1
 			g=g+1;
+			console.log(g)
 		}
 		else {
             $(".ik7").removeClass("ik7").addClass("i1");
@@ -113,6 +121,7 @@ $(document).ready(function(){
 			$(".in8").removeClass("in8").addClass("i1");
 			i=i+1
 			h=h+1;
+			console.log(h)
 		}
 		else {
             $(".ik8").removeClass("ik8").addClass("i1");
@@ -127,15 +136,69 @@ $(document).ready(function(){
 			$(".in9").removeClass("in9").addClass("i1");
 			i=i+1
 			j=j+1;
+			console.log(j)
 		}
 		else {
             $(".ik9").removeClass("ik9").addClass("i1");
             i=i+1
             j=j+2;
             console.log(j)
-		}	
+		}
 	});
 	$(".kv1, .kv2, .kv3, .kv4, .kv5, .kv6, .kv7, .kv8, .kv9").click(function(){
+		if(a==1 && b==1 && c==1){
+			console.log("уху");
+		}
+		else if(c==1 && f==1 && j==1){
+			console.log("уху");
+		}
+		else if(a==1 && d==1 && g==1){
+			console.log("уху");
+		}
+		else if(a==1 && e==1 && j==1){
+			console.log("уху");
+		}
+		else if(b==1 && e==1 && h==1){
+			console.log("уху");
+		}
+		else if(c==1 && e==1 && g==1){
+			console.log("уху");
+		}
+		else if(d==1 && e==1 && f==1){
+			console.log("уху");
+		}
+		else if(g==1 && h==1 && j==1){
+			console.log("уху");
+		}
+		});
+	$(".kv1, .kv2, .kv3, .kv4, .kv5, .kv6, .kv7, .kv8, .kv9").click(function(){
+		if(a==2 && b==2 && c==2){
+			console.log("уху1");
+		}
+		else if(c==2 && f==2 && j==2){
+			console.log("уху1");
+		}
+		else if(a==2 && d==2 && g==2){
+			console.log("уху1");
+		}
+		else if(a==2 && e==2 && j==2){
+			console.log("уху1");
+		}
+		else if(b==2 && e==2 && h==2){
+			console.log("уху1");
+		}
+		else if(c==2 && e==2 && g==2){
+			console.log("уху1");
+		}
+		else if(d==2 && e==2 && f==2){
+			console.log("уху1");
+		}
+		else if(g==2 && h==2 && j==2){
+			console.log("уху1");
+		}
+		})
+});
+	/*$(".kv1, .kv2, .kv3, .kv4, .kv5, .kv6, .kv7, .kv8, .kv9").click(function(){
 		if(a,b,c==1 || c,f,j==1 || a,d,g==1 || a,e,j==1 || b,e,h==1 || c,e,g==1 || d,e,f==1 || g,h,j==1 ){
 			console.log("уху");
 		}
@@ -144,4 +207,16 @@ $(document).ready(function(){
 		}
 	});
 });
+$(".kv1, .kv2, .kv3, .kv4, .kv5, .kv6, .kv7, .kv8, .kv9").click(function(){
+			if(a==1 && b==1 && c==1){
+				console.log("уху");
+			}
+			else if(c==1 && f==1 && j==1){
+				console.log("уху");
+			}
+			else if(a==1 && d==1 && g==1){
+				console.log("уху");
+			}
+		})
+*/
 //((a=1 && b=1 && c=1)||(a=1 && d=1 && g=1)||(a=1 && d=1 && g=1)||(a=1 && e=1 && j=1)||(b=1 && e=1 && h=1)||(c=1 && e=1 && g=1)||(d=1 && e=1 && f=1)||(g=1 && h=1 && j=1))//
