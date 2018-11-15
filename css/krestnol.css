@@ -1,4 +1,41 @@
-﻿.resh {
+﻿@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+.tf {
+	margin:37px;
+	position:absolute;
+	top:-113px;
+	color:#fff;
+	font-size: 200%;
+	font-family: 'Comfortaa', cursive;
+    
+}
+.tff {
+	margin:20px;
+	color:#fff;
+	font-size: 100%;
+	font-family: 'Comfortaa', cursive;
+}
+.fin {
+	position: absolute;
+	right: 600px;
+	width:224px;
+	height:224px;
+	top:400px;
+	border: 3px #101010 solid;
+	z-index: 6;
+	display: none;
+}
+.ffin {
+	position: absolute;
+	margin:67px;
+	width:87px;
+	height:53px;	
+	border: 3px black solid;
+	background-color: #202020;
+	z-index: 6;
+	display: none;
+}
+.resh {
 	position: absolute;
 	right: 600px;
 	width:224px;

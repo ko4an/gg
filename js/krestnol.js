@@ -1,4 +1,4 @@
-﻿var i=-1;
+﻿var i=0;
     a=0;
     b=0;
     c=0;
@@ -147,54 +147,91 @@ $(document).ready(function(){
 	});
 	$(".kv1, .kv2, .kv3, .kv4, .kv5, .kv6, .kv7, .kv8, .kv9").click(function(){
 		if(a==1 && b==1 && c==1){
-			console.log("уху");
+			$(".ffin").css({"display":"block"});
+			$(".fin").css({"display":"block"});
+			$(".tf").html("Победил Крестик");
 		}
 		else if(c==1 && f==1 && j==1){
-			console.log("уху");
+		$(".ffin").css({"display":"block"});
+			$(".fin").css({"display":"block"});
+			$(".tf").html("Победил Крестик");
 		}
 		else if(a==1 && d==1 && g==1){
-			console.log("уху");
+		$(".ffin").css({"display":"block"});
+			$(".fin").css({"display":"block"});
+			$(".tf").html("Победил Крестик");
 		}
 		else if(a==1 && e==1 && j==1){
-			console.log("уху");
+		$(".ffin").css({"display":"block"});
+			$(".fin").css({"display":"block"});
+			$(".tf").html("Победил Крестик");
 		}
 		else if(b==1 && e==1 && h==1){
-			console.log("уху");
+		$(".ffin").css({"display":"block"});
+			$(".fin").css({"display":"block"});
+			$(".tf").html("Победил Крестик");
 		}
 		else if(c==1 && e==1 && g==1){
-			console.log("уху");
+		$(".ffin").css({"display":"block"});
+			$(".fin").css({"display":"block"});
+			$(".tf").html("Победил Крестик");
 		}
 		else if(d==1 && e==1 && f==1){
-			console.log("уху");
+		$(".ffin").css({"display":"block"});
+			$(".fin").css({"display":"block"});
+			$(".tf").html("Победил Крестик");
 		}
 		else if(g==1 && h==1 && j==1){
-			console.log("уху");
+		$(".ffin").css({"display":"block"});
+			$(".fin").css({"display":"block"});
+			$(".tf").html("Победил Крестик");
 		}
 		});
 	$(".kv1, .kv2, .kv3, .kv4, .kv5, .kv6, .kv7, .kv8, .kv9").click(function(){
 		if(a==2 && b==2 && c==2){
-			console.log("уху1");
+			$(".ffin").css({"display":"block"});
+			$(".fin").css({"display":"block"});
+			$(".tf").html("Победил Нолик");
 		}
 		else if(c==2 && f==2 && j==2){
-			console.log("уху1");
+			$(".ffin").css({"display":"block"});
+			$(".fin").css({"display":"block"});
+			$(".tf").html("Победил Нолик");
 		}
 		else if(a==2 && d==2 && g==2){
-			console.log("уху1");
+			$(".ffin").css({"display":"block"});
+			$(".fin").css({"display":"block"});
+			$(".tf").html("Победил Нолик");
 		}
 		else if(a==2 && e==2 && j==2){
-			console.log("уху1");
+			$(".ffin").css({"display":"block"});
+			$(".fin").css({"display":"block"});
+			$(".tf").html("Победил Нолик");
 		}
 		else if(b==2 && e==2 && h==2){
-			console.log("уху1");
+			$(".ffin").css({"display":"block"});
+			$(".fin").css({"display":"block"});
+			$(".tf").html("Победил Нолик");
 		}
 		else if(c==2 && e==2 && g==2){
-			console.log("уху1");
+			$(".ffin").css({"display":"block"});
+			$(".fin").css({"display":"block"});
+			$(".tf").html("Победил Нолик");
 		}
 		else if(d==2 && e==2 && f==2){
-			console.log("уху1");
+			$(".ffin").css({"display":"block"});
+			$(".fin").css({"display":"block"});
+			$(".tf").html("Победил Нолик");
 		}
 		else if(g==2 && h==2 && j==2){
-			console.log("уху1");
+			$(".ffin").css({"display":"block"});
+			$(".fin").css({"display":"block"});
+			$(".tf").html("Победил Нолик");
+		}
+		else if(i==9){
+			$(".ffin").css({"display":"block"});
+			$(".fin").css({"display":"block"});
+			$(".tf").html("Ничья");
 		}
 		})
 });
