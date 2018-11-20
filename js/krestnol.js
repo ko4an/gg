@@ -16,12 +16,14 @@ $(document).ready(function(){
 			i=i+1
 			a=a+1;
 			console.log(a)
+			
 		}
 		else {
             $(".ik1").removeClass("ik1").addClass("i1");
             i=i+1
             a=a+2;
             console.log(a)
+            
 		}
 	});
 	$(".kv2").click(function(){
@@ -185,6 +187,11 @@ $(document).ready(function(){
 		$(".ffin").css({"display":"block"});
 			$(".fin").css({"display":"block"});
 			$(".tf").html("Победил Крестик");
+		}
+		else if(i==9){
+			$(".ffin").css({"display":"block"});
+			$(".fin").css({"display":"block"});
+			$(".tf").html("Ничья");
 		}
 		});
 	$(".kv1, .kv2, .kv3, .kv4, .kv5, .kv6, .kv7, .kv8, .kv9").click(function(){
